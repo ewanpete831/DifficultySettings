@@ -12,6 +12,7 @@ namespace DifficultySettings
 {
     public partial class Form1 : Form
     {
+        //setup Variables
         string heroName;
         string difficultyLevel = "Nonexistant";
 
@@ -22,7 +23,7 @@ namespace DifficultySettings
 
         private void easyButton_Click(object sender, EventArgs e)
         {
-            //set variables
+            //set name and difficulty variables
             heroName = nameInput.Text;
             difficultyLevel = "Easy";
 
@@ -34,7 +35,7 @@ namespace DifficultySettings
 
         private void normalButton_Click(object sender, EventArgs e)
         {
-            //set variables
+            //set name and difficulty variables
             heroName = nameInput.Text;
             difficultyLevel = "Intermediate";
 
@@ -46,7 +47,7 @@ namespace DifficultySettings
 
         private void hardButton_Click(object sender, EventArgs e)
         {
-            //set variables
+            //set name and difficulty variables
             heroName = nameInput.Text;
             difficultyLevel = "Hard";
 
